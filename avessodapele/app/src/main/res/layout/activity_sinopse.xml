@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#5B6FDA"
+    android:textAlignment="textEnd"
+    tools:context=".sinopse">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="513dp"
+        android:layout_height="835dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355"
+        app:srcCompat="@drawable/inserir_um_t_tuloo_avesso__4_" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="SINOPSE"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <Button
+        android:id="@+id/btnSaoPetVoltar"
+        android:layout_width="110dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#394270"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Voltar"
+        android:textColorHighlight="#5B6FDA"
+        android:textColorLink="#5B6FDA"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="298dp"
+        android:layout_height="444dp"
+        android:fontFamily="serif"
+        android:text="O Avesso da Pele é um romance de Jeferson Tenório que conta a história de Pedro, um jovem negro que busca a sua identidade e resgatar o passado da sua família após a morte do pai. O livro se passa em Porto Alegre nos anos de 1980 e explora temas como racismo estrutural, violência, negritude e identidade.    A obra é considerada um processo de dor, redenção, superação e liberdade, e mostra como a vida de uma pessoa negra é atravessada por fraturas existenciais em um país racista."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+</androidx.constraintlayout.widget.ConstraintLayout>
